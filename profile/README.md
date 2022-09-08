@@ -1,1 +1,29 @@
-# Vection
+# Vection - PHP Component Library and Framework
+
+Vection is a future-proof PHP component library and framework that focuses on flexibility, developer friendly code and lightweight to rich enterprise components.
+Vection can be used to realize small to large enterprise applications.
+
+> :warning: Vection is currently in development stage, so atm only pre-releases are available. Breaking changes may be made until a 
+stable release!
+
+## What does Vection provide?
+
+Vection provides on the one hand direct full operative components and on the other hand framework components which require application specific implementation. 
+Vection decouples the api/interfaces (**[Contracts](https://github.com/Vection-Framework/Contracts)**) 
+and its implementation to achieve maximum flexibility. Each component has in additional its own package which can be used as a standalone dependency. Vection currently provides the following components:
+
+* The most advanced **[Dependency Injection](https://github.com/Vection-Framework/DependencyInjection)**
+* Type save and pool based **[Cache](https://github.com/Vection-Framework/Cache)** component with support 
+  for different cache providers.
+* Event type based and fully PSR compatible **[Event Dispatcher](https://github.com/Vection-Framework/Event)**
+* Middleware based **[Messenger / System Bus](https://github.com/Vection-Framework/Messenger)** with CQRS 
+  and transport layer, async processing (MQ) support
+* PSR based **[HTTP](https://github.com/Vection-Framework/Http)** component includes kernel, responder, 
+  server/client, REST API and proxy support
+* **[Validator](https://github.com/Vection-Framework/Validator)** for PHP data and json/yaml schema validation
+
+## Support
+
+Support Vection via Ko-fi:
+
+[![Ko-fi](https://cdn.ko-fi.com/cdn/kofi3.png)](https://ko-fi.com/vection)
